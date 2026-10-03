@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>AquaAware | Water Footprint Calculator</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header class="navbar"><div class="logo">AquaAware</div><nav>
+<a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="infrastructure.html">Infrastructure</a><a href="calculator.html">Calculator</a><a href="donate.html">Donate</a><a href="contact.html">Contact</a>
+</nav></header>
+<main><section class="page-header"><h1>Water Footprint Calculator</h1><p>Estimate daily water use from everyday activities.</p></section>
+<section class="section calculator-wrap"><form id="waterForm" class="calculator card">
+<label for="shower">Showers per day (minutes)</label><input type="number" id="shower" min="0" placeholder="e.g. 10">
+<label for="flush">Toilet flushes per day</label><input type="number" id="flush" min="0" placeholder="e.g. 5">
+<label for="laundry">Clothes washed per week</label><input type="number" id="laundry" min="0" placeholder="e.g. 3">
+<label for="drink">Drinking water (liters per day)</label><input type="number" id="drink" min="0" step="0.1" placeholder="e.g. 2">
+<button class="btn" type="submit">Calculate Footprint</button></form><div id="result" class="result-box" aria-live="polite"></div></section></main>
+<footer><p>© 2026 AquaAware</p></footer><script src="js/script.js"></script></body></html>
